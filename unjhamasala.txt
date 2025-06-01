@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unjhamasala Co.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      color: #3e2c1e;
+    }
+
+    header {
+      background-color: #a52a2a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1606756793984-8f1b2ad7c66b') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .products {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 0.8rem;
+      background-color: #a52a2a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #3e2c1e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Unjhamasala Co.</h1>
+  <p>Authentic Spices From the Heart of Gujarat</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Bringing Purity & Taste to Every Kitchen</h1>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Unjhamasala Co. is a legacy of traditional Indian spices, sourced directly from trusted farms and hand-ground to preserve natural flavor and aroma. Based in Unjha, the spice capital of India, we bring authenticity and quality in every packet.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1605451602170-16ce6acb5c93" alt="Turmeric Powder"/>
+      <h3>Turmeric Powder</h3>
+      <p>Bright, earthy, and packed with curcumin. Ideal for all Indian curries.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1624358391250-6c05d5b5ff00" alt="Chili Powder"/>
+      <h3>Red Chili Powder</h3>
+      <p>Fiery, bold flavor made from sun-dried chillies grown in Gujarat.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1587390984286-72b774a5fc83" alt="Coriander Powder"/>
+      <h3>Coriander Powder</h3>
+      <p>Freshly ground coriander seeds offering citrusy, nutty taste.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Unjhamasala Co. | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
